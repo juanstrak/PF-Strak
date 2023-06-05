@@ -1,0 +1,117 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "apellido": "Strak",
+      "email": "juanstrak@mail.com",
+      "password": "654321",
+      "token": "asdfghjklñ",
+      "role": "admin"
+    },
+    {
+      "nombre": "Santiago",
+      "apellido": "Gonzalez",
+      "email": "santigonzalez@mail.com",
+      "password": "142536",
+      "token": "qwertyuiop",
+      "role": "user",
+      "id": 2
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "subjectId": 1,
+      "fecha_fin": "2023-04-27T01:27:59.631Z",
+      "fecha_inicio": "2023-04-27T01:27:59.631Z"
+    },
+    {
+      "id": 2,
+      "subjectId": 2,
+      "fecha_fin": "2023-04-27T01:27:59.631Z",
+      "fecha_inicio": "2023-04-27T01:27:59.631Z"
+    },
+    {
+      "id": 3,
+      "subjectId": 2,
+      "fecha_fin": "2023-04-27T01:27:59.631Z",
+      "fecha_inicio": "2023-04-27T01:27:59.631Z"
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "nombre": "Angular",
+      "description": "Curso de Angular con duración de 2 meses."
+    },
+    {
+      "id": 2,
+      "nombre": "Desarrollo Web",
+      "description": "Curso de Desarrollo Web con duración de 2 meses."
+    },
+    {
+      "id": 3,
+      "nombre": "Desarrollo Javascript",
+      "description": "Curso de Desarrollo Javascript con duración de 2 meses."
+    }
+  ],
+  "inscriptions": [
+    {
+      "subjectId": null,
+      "studentId": null,
+      "courseId": null,
+      "id": 1
+    },
+    {
+      "subjectId": null,
+      "studentId": 3,
+      "courseId": null,
+      "id": 2
+    },
+    {
+      "subjectId": 2,
+      "studentId": 3,
+      "courseId": 2,
+      "id": 4
+    },
+    {
+      "subjectId": 1,
+      "studentId": 3,
+      "courseId": 1,
+      "id": 5
+    },
+    {
+      "subjectId": 1,
+      "studentId": 3,
+      "courseId": 1,
+      "id": 6
+    },
+    {
+      "subjectId": 1,
+      "studentId": 3,
+      "courseId": 1,
+      "id": 7
+    },
+    {
+      "subjectId": 1,
+      "studentId": 3,
+      "courseId": 1,
+      "id": 8
+    }
+  ],
+  "students": [
+    {
+      "id": 3,
+      "nombre": "Alan",
+      "apellido": "Olivero",
+      "fecha_registro": "2023-04-27T01:27:59.631Z"
+    },
+    {
+      "id": 1,
+      "nombre": "Santiago",
+      "apellido": "Gonzalez",
+      "fecha_registro": "2023-04-27T01:27:59.631Z"
+    }
+  ]
+}
